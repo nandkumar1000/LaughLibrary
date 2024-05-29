@@ -7,3 +7,9 @@ tl.from(".container-fluid",{
   opacity:0,
   stagger:0.4
 })
+tl.from(".nand",{
+  y:-900,
+  duration:0.5,
+  opacity:0,
+  stagger:0.3
+})
