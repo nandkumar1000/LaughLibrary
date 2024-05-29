@@ -20,6 +20,13 @@ tl.from(".conatiner h1",{
   // rotate:360,
   stagger:0.2
 })
+tl.from(".conatiner p",{
+  x:700,
+  duration:0.5,
+  opacity:0,
+  // rotate:360,
+  stagger:0.2
+})
 tl.from("#fetchjoke",{
   x:-700,
   duration:0.5,
