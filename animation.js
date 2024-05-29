@@ -2,7 +2,7 @@ var tl=gsap.timeline();
 tl.from(".container-fluid",{
   y:900,
   x:900,
-  duration:0.7,
+  duration:0.5,
   delay:0.3,
   opacity:0,
   stagger:0.4
@@ -34,3 +34,12 @@ tl.from("#fetchjoke",{
   // rotate:360,
   stagger:0.2
 })
+tl.from("#footer",{
+  y:-400,
+  duration:0.3,
+  opacity:0,
+  // backgroundImage:lineargradient(red,black),
+  // rotate:360,
+  stagger:0.2
+})
+tl.from("#footer p",{})
