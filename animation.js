@@ -38,13 +38,25 @@ tl.from("#footer",{
   y:-400,
   duration:0.3,
   opacity:0,
-  // backgroundImage:lineargradient(red,black),
+    // backgroundImage:lineargradient(red,black),
   // rotate:360,
   stagger:0.2
 })
 tl.from("#footer p",{
   y:400,
   duration:0.3,
+  opacity:0,
+  stagger:0.2
+})
+tl.from("#footsec",{
+  y:-400,
+  duration:0.3,
+  opacity:0,
+  stagger:0.2
+})
+tl.from("#footersec p",{
+  y:400,
+  duration:0.5,
   opacity:0,
   stagger:0.2
 })
